@@ -127,11 +127,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BlackJack\src\Game.cpp" />
+    <ClCompile Include="BlackJack\src\House.cpp" />
+    <ClCompile Include="BlackJack\src\Player.cpp" />
+    <ClCompile Include="BlackJack\src\Deck.cpp" />
+    <ClCompile Include="BlackJack\src\GenericPlayer.cpp" />
+    <ClCompile Include="BlackJack\src\Card.cpp" />
+    <ClCompile Include="BlackJack\src\Hand.cpp" />
     <ClCompile Include="Hangman\Hangman.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TicTacToe\TicTacToe.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BlackJack\lib\Game.h" />
+    <ClInclude Include="BlackJack\lib\House.h" />
+    <ClInclude Include="BlackJack\lib\Deck.h" />
+    <ClInclude Include="BlackJack\lib\GenericPlayer.h" />
+    <ClInclude Include="BlackJack\lib\Card.h" />
+    <ClInclude Include="BlackJack\lib\Hand.h" />
+    <ClInclude Include="BlackJack\lib\Player.h" />
     <ClInclude Include="Hangman\Hangman.h" />
     <ClInclude Include="TicTacToe\TicTacToe.h" />
   </ItemGroup>
